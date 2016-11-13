@@ -16,7 +16,7 @@ public class BowlingGameTest {
 	@Test
 	public void testGutterGame() throws Exception {
 		rollMany(20, 0);
-		assertEquals(10, game.getScore());
+		assertEquals(0, game.getScore());
 	}
 
 	@Test
