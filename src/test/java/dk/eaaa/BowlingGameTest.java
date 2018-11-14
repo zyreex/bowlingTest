@@ -40,7 +40,7 @@ public class BowlingGameTest {
 		game.roll(5);
 		game.roll(3);
 		rollMany(16, 0);
-		assertEquals(26, game.getScore());
+		assertEquals(27, game.getScore());
 	}
 	
 	private void rollMany(int rolls, int pins) throws Exception {
